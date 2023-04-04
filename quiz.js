@@ -1,8 +1,8 @@
 $(document).ready(function(){
     // define global arrays for correct answers, questions, and choice options
-    var correct = ["2009", "Astana"];
-    var questions = ["Which year was Nazarbayev University founded?", "What is the capital of Kazakhstan?"];
-    var choice_options = [["2009","2010","2011","2012"],["Astana","Almaty","Shymkent","Karaganda"]];
+    var correct = ["2009", "Astana", "Kazakh", "Tenge", "Nursultan Nazarbayev"];
+    var questions = ["Which year was Nazarbayev University founded?", "What is the capital of Kazakhstan?", "What is the official language of Kazakhstan?", "What is the currency of Kazakhstan?", "Who was the first president of Kazakhstan?"];
+    var choice_options = [["2009","2010","2011","2012"],["Astana","Almaty","Shymkent","Karaganda"],["Kazakh","Russian","Uzbek","Turkmen"],["Tenge","Dollar","Euro","Ruble"],["Nursultan Nazarbayev","Kassym-Jomart Tokayev","Askar Akayev","Islam Karimov"]];
 
     // generate quiz questions
     for (var i = 0; i < questions.length; i++) {
